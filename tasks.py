@@ -55,4 +55,4 @@ def create_postgres_backup():
 if __name__ == "__main__":
     while True:
         create_postgres_backup()
-        time.sleep(60)
+        time.sleep(3600*6)
